@@ -1,0 +1,163 @@
+* { 
+    box-sizing: border-box;
+  }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: whitesmoke;
+  }
+  
+  
+  
+  .name {
+      background-color:rgb(160, 13, 13);
+      color: white;
+     
+      
+  }
+  
+  
+  header {
+    text-align: center;
+    background: content-box radial-gradient(crimson, skyblue);
+    background-size: cover;
+    background-color: rgb(241, 215, 215);
+    
+    
+   
+  }
+  header {
+    line-height: 2.0;
+  }
+  
+  
+  .tag {
+    background-color: #b7bec7;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+    
+  } 
+  .location {
+    background-color: rgb(121, 33, 33);
+    color:rgb(245, 245, 245);
+  }
+  
+  
+  .card:hover {
+    border-color: #181618;
+  }
+  
+  ul.skills {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .skills li {
+    border-radius: 6px;
+      
+    display: inline-block;
+    background: mediumorchid;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  
+  .skills li:nth-child(odd) {
+    background: #0399ff;
+  }
+  
+  footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+    text-align: center;
+  }
+  
+  
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .5;
+    transition: all .25s;
+    
+  }
+  
+  a.linkedin {
+    background-image: url(linkedin.svg);
+  
+  }
+  a.github {
+    background-image: url(github.svg);
+  }
+  a.email{
+      background-image: url(email2.jpg);
+  }
+  a.social:hover {
+    opacity: 1;
+    transform: scale(2.2) rotate(90deg);
+  }
+  .clearfix {
+    clear: both;
+  }
+  
+  /* Styles for larger screens */
+  @media screen and (min-width: 720px) {
+    
+    .flex {
+        display: flex;
+        max-width: 1200px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+  
+    header {
+      min-height: 450px;
+    }
+  
+    .nav {
+      max-width: 1200px;
+    }
+  
+    .nav .name {
+      display: block;
+      margin-right: auto;
+      color: white;
+    }
+  
+    
+  
+    
+  
+    footer {
+      font-size: 1.3em;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+  
+     .repo{
+         display:flex;
+         justify-content: center;
+     }
+  }
