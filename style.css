@@ -91,65 +91,6 @@
   footer ul li {
     display: inline-block;
   }
-  
-  a.social {
-    display: inline-block;
-    text-indent: -9999px;
-    margin-left: 5px;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-    opacity: .5;
-    transition: all .25s;
-    
-  }
-  
-  a.linkedin {
-    background-image: url(linkedin.svg);
-  
-  }
-  a.github {
-    background-image: url(github.svg);
-  }
-  a.email{
-      background-image: url(email2.jpg);
-  }
-  a.social:hover {
-    opacity: 1;
-    transform: scale(2.2) rotate(90deg);
-  }
-  .clearfix {
-    clear: both;
-  }
-  
-  /* Styles for larger screens */
-  @media screen and (min-width: 720px) {
-    
-    .flex {
-        display: flex;
-        max-width: 1200px;
-        justify-content: space-around;
-        margin: 0 auto;
-    }
-  
-    header {
-      min-height: 450px;
-    }
-  
-    .nav {
-      max-width: 1200px;
-    }
-  
-    .nav .name {
-      display: block;
-      margin-right: auto;
-      color: white;
-    }
-  
-    
-  
-    
-  
     footer {
       font-size: 1.3em;
       max-width: 1200px;
@@ -160,4 +101,4 @@
          display:flex;
          justify-content: center;
      }
-  }
+  
